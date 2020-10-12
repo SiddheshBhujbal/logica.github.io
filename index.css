@@ -139,7 +139,7 @@ body {
   }
 
   .card:hover {
-    transform: translateX(-150px);
+    transform: translateY(-50px);
     transition: 0.4s ease-in;
   }
 
@@ -159,23 +159,16 @@ body {
   .card {
     position: relative;
     top: 50%;
-    left: 160px;
-    transform: translateX(-50%);
+    left: 70px;
+    /* transform: translateX(-50%); */
     border: 1px solid #fff;
   }
 
-  .card:not {
-    margin-top: -250px;
-  }
-
   .card:hover {
-    transform: translateX(-150px);
+    transform: translateY(-50px);
     transition: 0.4s ease-in;
   }
 
-  .card:nth-of-type(5) {
-    margin-bottom: 200px;
-  }
 }
 @media(max-size: 343px){
   .container{
